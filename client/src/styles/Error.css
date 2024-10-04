@@ -1,0 +1,27 @@
+/* Import your existing styles */
+@import url('../index.css');
+
+/* Override existing styles specific to the error page */
+#error-page {
+    /* Center the content on the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #242424;
+    /* Background color for the error page */
+    color: #fff;
+    /* Text color for the error page */
+}
+
+#error-page h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#error-page p {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}

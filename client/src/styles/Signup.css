@@ -1,0 +1,67 @@
+/* Import your existing styles */
+@import url('../index.css');
+
+/* Override existing styles specific to the signup page */
+.signup-container {
+    /* Keep the container centered on the page */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #242424;
+    /* Background color for the signup page */
+}
+
+/* Override existing styles for the signup form */
+.card {
+    max-width: 400px;
+    /* Adjust the max-width to match your design */
+    background-color: #fff;
+    /* Background color for the signup form */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+.card-header {
+    background-color: #FFA500;
+    /* Bright orange background color for the header */
+    color: #fff;
+    /* Text color for the header */
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-info {
+    background-color: #FFA500;
+    /* Bright orange color for the Submit button */
+    color: #fff;
+    /* Text color for the Submit button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #ff8000;
+    /* Brighten the color on hover (adjust as needed) */
+}

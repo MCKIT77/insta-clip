@@ -1,0 +1,11 @@
+.video-link {
+    margin: 4px;
+}
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
