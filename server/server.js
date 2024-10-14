@@ -52,7 +52,7 @@ const startApolloServer = async () => {
     }
   });
 
-  const bucketName = 'uploads_bucket_instaclip'; // Replace with your GCS bucket name // Replace with your GCS bucket name
+  const bucketName = 'uploads_bucket_instaclip'; // Replace with your GCS bucket name
   const bucket = storage.bucket(bucketName);
 
   // Set up multer for file uploads
@@ -109,7 +109,7 @@ const startApolloServer = async () => {
     app.listen(PORT, () => {
       console.log(`API server running on port ${PORT}!`);
       console.log(`Use GraphQL at ${serverUrl}/graphql`);
-      console.log(process.env.CREDENTIALS);
+      // console.log(process.env.CREDENTIALS);
     });
   });
 };
